@@ -13,7 +13,20 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "atom-babel6-transpiler": "^1.2.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
-  }
+  },
+  "atomTranspilers": [
+    {
+      "glob": "**/*.js",
+      "transpiler": "atom-babel6-transpiler",
+      "options": {
+        "babel": {
+          "presets": ["es2015", "react"],
+          "babelrc": false
+        }
+      }
+    }
+  ]
 }
