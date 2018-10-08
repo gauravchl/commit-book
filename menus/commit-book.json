@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle commit-book",
+        "command": "commit-book:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "commit-book",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "commit-book:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
