@@ -16,7 +16,8 @@
     "atom-babel6-transpiler": "^1.2.0",
     "dugite": "^1.78.0",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "react-table": "^6.8.6"
   },
   "atomTranspilers": [
     {
