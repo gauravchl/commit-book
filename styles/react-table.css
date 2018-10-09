@@ -116,7 +116,8 @@
 
 .ReactTable .rt-thead .rt-resizable-header-content {
     overflow: hidden;
-    text-overflow: ellipsis
+    text-overflow: ellipsis;
+    font-size: 1.18em;
 }
 
 .ReactTable .rt-thead .rt-header-pivot {
@@ -218,6 +219,8 @@
     overflow: hidden;
     transition: .3s ease;
     transition-property: width,min-width,padding,opacity;
+    display: flex;
+    align-items: center;
 }
 
 .ReactTable .rt-th.-hidden,.ReactTable .rt-td.-hidden {
@@ -326,23 +329,6 @@
     outline: none
 }
 
-.ReactTable .-pagination .-btn {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    display: block;
-    width: 100%;
-    height: 100%;
-    border: 0;
-    border-radius: 3px;
-    padding: 6px;
-    font-size: 1em;
-    color: rgba(0,0,0,0.6);
-    background: rgba(0,0,0,0.1);
-    transition: all .1s ease;
-    cursor: pointer;
-    outline: none;
-}
 
 .ReactTable .-pagination .-btn[disabled] {
     opacity: .5;

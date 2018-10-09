@@ -10,4 +10,27 @@
     font-size: @input-font-size !important;
     border-color: @base-border-color !important;
   }
+
+  .ReactTable {
+    .-pagination .-btn {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: solid 1px @button-border-color;
+      border-radius: 3px;
+      padding: 6px;
+      font-size: 1em;
+      color: @text-color;
+      background: @button-background-color;
+      transition: all .1s ease;
+      cursor: pointer;
+      outline: none;
+      &:hover {
+        background: @button-background-color-hover;
+      }
+    }
+  }
 }
