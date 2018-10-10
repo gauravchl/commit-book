@@ -11,11 +11,28 @@
     border-color: @base-border-color !important;
   }
 
+  .cb-select {
+    background-color: @button-background-color;
+    border: solid 1px @button-border-color;
+    font-size: @input-font-size;
+    color: @text-color;
+    height: 2em;
+    &:hover {
+      background-color: @button-background-color-hover;
+    }
+
+    &:selected {
+      background-color: @button-background-color-selected;
+    }
+  }
+
   .btn {
     display: flex;
     align-items: center;
+    outline: none;
+    padding: 0 12px;
     svg {
-      fill: @text-color
+      fill: @text-color;
     }
   }
 
@@ -33,7 +50,7 @@
       font-size: 1em;
       color: @text-color;
       background: @button-background-color;
-      transition: all .1s ease;
+      transition: all 0.1s ease;
       cursor: pointer;
       outline: none;
       &:hover {
@@ -47,10 +64,10 @@
     }
 
     .-pagination .-pageJump input {
-        width: 70px;
-        text-align: center;
-        background-color: @input-background-color;
-        border-color: @base-border-color;
+      width: 70px;
+      text-align: center;
+      background-color: @input-background-color;
+      border-color: @base-border-color;
     }
 
     .-pagination select {
@@ -60,7 +77,7 @@
       font-size: inherit;
       border-radius: 3px;
       font-weight: normal;
-      outline: none
+      outline: none;
     }
   }
 }
