@@ -17,16 +17,16 @@
     "dugite": "^1.78.0",
     "moment": "^2.22.2",
     "react": "^16.5.2",
-    "react-dates": "^18.1.0",
+    "react-date-range": "^1.0.0-beta",
     "react-dom": "^16.5.2",
-    "react-table": "^6.8.6",
-    "react-with-direction": "^1.3.0"
+    "react-table": "^6.8.6"
   },
   "atomTranspilers": [
     {
       "glob": "**/*.js",
       "transpiler": "atom-babel6-transpiler",
       "options": {
+        "setBabelEnv": true,
         "babel": {
           "presets": [
             "es2015",
