@@ -19,6 +19,7 @@
     "react": "^16.5.2",
     "react-date-range": "^1.0.0-beta",
     "react-dom": "^16.5.2",
+    "react-gh-like-diff": "^1.0.0",
     "react-table": "^6.8.6"
   },
   "atomTranspilers": [
