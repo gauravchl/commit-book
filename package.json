@@ -16,6 +16,7 @@
     "atom-babel6-transpiler": "^1.2.0",
     "dugite": "^1.78.0",
     "moment": "^2.22.2",
+    "node-emoji": "^1.8.1",
     "react": "^16.5.2",
     "react-date-range": "^1.0.0-beta",
     "react-dom": "^16.5.2",
