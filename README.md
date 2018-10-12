@@ -20,3 +20,6 @@ Or you can install from Settings view by searching for commit book.
 
 #### Contributions
 Pull requests are welcome, big and small!
+
+#### Show your support 
+⭐️ this repo
