@@ -1,7 +1,7 @@
 {
   "name": "commit-book",
   "main": "./lib/commit-book",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Atom plugin to list your commits with handy features like search, sort, filter.",
   "keywords": ["git", "commit", "book", "github"],
   "activationCommands": {
