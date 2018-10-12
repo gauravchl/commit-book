@@ -3,6 +3,7 @@
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
 @import "ui-variables";
+@import 'octicon-utf-codes';
 
 .commit-book {
   .cb-input {
@@ -45,6 +46,16 @@
     height: 32px;
     svg {
       fill: @text-color;
+    }
+  }
+
+ .copy-btn {
+   padding: 8px;
+   font-size: 1.32em;
+   cursor: pointer;
+   &::before {
+    font-family: 'Octicons Regular';
+    content: @clippy;
     }
   }
 }
