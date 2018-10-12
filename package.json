@@ -1,13 +1,13 @@
 {
   "name": "commit-book",
   "main": "./lib/commit-book",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [],
+  "version": "0.1.0",
+  "description": "Atom plugin to list your commits with handy features like search, sort, filter.",
+  "keywords": ["git", "commit", "book", "github"],
   "activationCommands": {
     "atom-workspace": "commit-book:toggle"
   },
-  "repository": "https://github.com/atom/commit-book",
+  "repository": "https://github.com/gauravchl/commit-book",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
