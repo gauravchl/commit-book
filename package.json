@@ -19,6 +19,8 @@
   },
   "dependencies": {
     "atom-babel6-transpiler": "^1.2.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
     "dugite": "^1.78.0",
     "moment": "^2.22.2",
     "node-emoji": "^1.8.1",
