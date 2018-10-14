@@ -17,9 +17,11 @@ Or you can install from Settings view by searching for commit book.
 
 #### TODO
  -  Write tests
+ -  Improve performance, use dynamic commit loading, don't load all commits at once.
+ -  Improve package installation speed, it takes too much time to install.
 
 #### Contributions
 Pull requests are welcome, big and small!
 
-#### Show your support 
+#### Show your support
 ⭐️ this repo
